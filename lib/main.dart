@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Presentacion/screens/ronny_villa.dart';
 import 'package:flutter_application_1/Presentacion/screens/mateo_guerron.dart';
 import 'package:flutter_application_1/Presentacion/screens/jordan_iza.dart';
+import 'package:flutter_application_1/Presentacion/screens/steven_ninasunta.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,6 +35,7 @@ class _PantallasGrupoState extends State<PantallasGrupo> {
     RonnyVilla(),
     MateoGuerron(),
     JordanIza(),
+    StevenNinasunta(),
   ];
 
   void siguientePantalla() {
